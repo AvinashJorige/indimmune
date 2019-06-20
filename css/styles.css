@@ -1,0 +1,40 @@
+@media (min-width: 320px) and (max-width: 374px){
+    #header .logo img{
+        max-height: 31px;
+    }    
+    #slides .ss-img{
+        height: calc(35vh);
+    }
+    #about{
+        padding:30px 0;
+    }
+    .section-header h3{
+        font-size: 32px;
+    }
+    #services .title{        
+    font-size: 16px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px){
+
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+@media (min-width: 1024px) and (max-width: 1439px){
+
+}
+
+@media (min-width: 1440px) and (max-width: 2559px){
+
+}
+
+@media (min-width: 2560px) {
+
+}
