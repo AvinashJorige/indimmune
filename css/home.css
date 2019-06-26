@@ -43,7 +43,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #05638e;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -197,10 +197,23 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #33a5d9;
   text-decoration: none;
 }
+.main-nav .drop-down ul a{
+    color: #fff !important;
+}
+.main-nav .drop-down li{
+  border-bottom: #fff
+}
 
+.main-nav .menuDrp li:hover > a {
+  margin: 0 0 0 5px;
+}
+
+.main-nav .drop-down li:hover{
+  background:#33a5d966;
+}
 .main-nav .drop-down ul {
   display: block;
   position: absolute;
@@ -210,7 +223,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
+  background: #33a5d9;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -545,6 +558,7 @@ h6 {
 }
 
 #services .title {
+  margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -560,6 +574,7 @@ h6 {
 
 #services .description {
   font-size: 14px;
+  margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -773,14 +788,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #0f8bc3;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #33a5d9;
   padding: 60px 0 30px 0;
 }
 
@@ -808,10 +823,15 @@ h6 {
   color: #ecf5ff;
 }
 
+
+.social-links i{
+  color:#0f8bc3;
+}
+
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #fff;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -824,7 +844,9 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #0f8bc3;
+}
+#footer .footer-top .social-links a:hover i{
   color: #fff;
 }
 
@@ -1067,11 +1089,5 @@ h6 {
   }
   #certificates {
     padding: 55px 0 0 0;
-  }
-}
-
-@media (min-width: 320px) {
-  #about {
-    padding: 30px 0;
   }
 }
